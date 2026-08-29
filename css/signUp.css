@@ -1,0 +1,102 @@
+.modal-container {
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 35px 35px;
+}
+
+.signUp-title {
+  color: black;
+}
+
+body {
+  background-color: #2a9d8f;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+input,
+select {
+  width: 350px;
+}
+
+.pass-input {
+  margin-bottom: 5px;
+}
+
+.pass-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+/* Sign Process */
+
+.confirm-div {
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+
+.title-text {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.studentID-text {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.note-text {
+  text-align: center;
+  color: red;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.btn_back {
+  background-color: white;
+  color: black;
+  padding: 5px 12px;
+  margin: 10px 10px;
+  border: none;
+}
+
+.btn_back:hover {
+  cursor: pointer;
+  background-color: #264653;
+  color: white;
+}
+
+span {
+  font-size: 18px;
+  display: inline-block;
+  background-color: #336d66;
+  color: white;
+  padding: 4px 13px;
+  border-radius: 50px;
+}
+
+/* --primary: #009c94;
+    --primary-light: #4db6ac;
+    --primary-dark: #00796b;
+    --accent: #26c6da;
+    --background: #ffffff;
+    --card-bg: #f5f5f5;
+    --text: #333333;
+    --text-light: #666666;
+} */
